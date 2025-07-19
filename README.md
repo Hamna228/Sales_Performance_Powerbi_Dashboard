@@ -1,6 +1,3 @@
-Sure! Here's your updated `README.md` with the image link from your GitHub repository added at the end under the **📸 Screenshots / Demo** section:
-
----
 
 # 📈 Sales Performance Dashboard
 
