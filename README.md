@@ -5,7 +5,7 @@ An interactive Power BI dashboard designed to monitor and analyze sales performa
 
 ---
 
-## 📝 Short Description / Purpose
+## 📝 Purpose
 
 The **Sales Performance Dashboard** provides a comprehensive overview of total sales, profit margins, growth rates, and product trends. It enables sales leaders and analysts to identify top-performing regions, high-revenue product categories, and sub-category breakdowns—all in a single interactive view.
 
