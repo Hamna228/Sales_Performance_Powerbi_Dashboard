@@ -1,6 +1,10 @@
+Sure! Here's your updated `README.md` with the image link from your GitHub repository added at the end under the **📸 Screenshots / Demo** section:
+
+---
+
 # 📈 Sales Performance Dashboard
 
-An interactive, dynamic Tableau dashboard designed to visualize, monitor, and analyze key sales metrics across time, regions, teams, and products. Built to drive data-informed decision-making and identify growth opportunities.
+An interactive, dynamic Power BI dashboard designed to visualize, monitor, and analyze key sales metrics across time, regions, teams, and products. Built to drive data-informed decision-making and identify growth opportunities.
 
 ---
 
@@ -90,3 +94,6 @@ To provide a centralized tool that:
 
 ## 📸 Screenshots / Demo
 
+![Sales Performance Dashboard Preview](https://github.com/Hamna228/Sales_Performance_Powerbi_Dashboard/blob/main/Sales_Performance_Dashboard.PNG)
+
+---
