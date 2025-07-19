@@ -1,40 +1,39 @@
 
 # 📈 Sales Performance Dashboard
 
-An interactive, dynamic Power BI dashboard designed to visualize, monitor, and analyze key sales metrics across time, regions, teams, and products. Built to drive data-informed decision-making and identify growth opportunities.
+An interactive Power BI dashboard designed to monitor and analyze sales performance across key metrics including revenue, profit, regional breakdowns, and product-level insights. Built to support data-driven decisions in sales strategy, resource allocation, and performance tracking.
 
 ---
 
 ## 📝 Short Description / Purpose
 
-The **Sales Performance Dashboard** provides a comprehensive view of sales trends, targets, and KPIs, enabling business stakeholders to evaluate sales team effectiveness, product performance, and geographic insights. It is ideal for sales managers, executives, and analysts seeking a high-level and drill-down view of sales dynamics.
+The **Sales Performance Dashboard** provides a comprehensive overview of total sales, profit margins, growth rates, and product trends. It enables sales leaders and analysts to identify top-performing regions, high-revenue product categories, and sub-category breakdowns—all in a single interactive view.
 
 ---
 
 ## 🛠️ Tech Stack
 
-This dashboard was created using the following tools and technologies:
+The dashboard was developed using the following tools and technologies:
 
-* 📊 **Power BI Desktop** – Core platform used for dashboard development and interactivity.
-* 🔄 **Power Query Editor** – Used for data cleaning, transformation, and preprocessing.
-* 🧮 **DAX (Data Analysis Expressions)** – Used for building calculated measures, KPIs, and logic-based interactivity.
-* 🏗️ **Data Modeling** – Defined relationships across sales, geography, team, and product tables to enable filtering and aggregation.
-* 📁 **File Format** – `.pbix` file for Power BI Desktop development.
+* 📊 **Power BI Desktop** – Main platform for dashboard creation and visualizations
+* 🔄 **Power Query Editor** – Used for data transformation and cleansing
+* 🧠 **DAX (Data Analysis Expressions)** – For calculating KPIs like Profit Margin % and Sales Growth %
+* 🏗️ **Data Modeling** – Linking sales, region, category, and sub-category tables to enable drill-down
+* 📁 **File Format** – `.pbix` for Power BI and `.png` for image previews
 
 ---
 
 ## 🔍 Data Source
 
-**Source**: Hypothetical or real-world corporate sales data collected from CRM systems or Excel/CSV files.
+**Source**: Simulated business sales data (or from a real CRM system or retail dataset).
 
-**Structure**:
+**Data Structure Includes**:
 
-* Transactional sales data with timestamps
-* Product categories and IDs
-* Geographic and regional mapping (Country/City/State)
-* Customer segmentation
-* Sales rep/team assignment
-* Target vs. actual metrics
+* Order-level sales data
+* Product Category & Sub-Category
+* Region & Market
+* Monthly Sales Trends
+* Profit and Profit Margin Calculations
 
 ---
 
@@ -42,50 +41,48 @@ This dashboard was created using the following tools and technologies:
 
 ### • Business Problem
 
-Sales leaders often struggle to gain a real-time view of team performance, identify bottlenecks, and track progress toward sales goals across various dimensions such as products, regions, and customer types.
+Organizations need a real-time, visual way to track sales performance and profit trends, identify underperforming areas, and optimize sales strategies by product and region.
 
 ### • Goal of the Dashboard
 
-To provide a centralized tool that:
+To create a powerful yet simple dashboard that:
 
-* Tracks performance against sales targets
-* Highlights top-performing regions, reps, and products
-* Uncovers insights to guide decisions and allocate resources more efficiently
+* Displays overall sales health and performance
+* Helps compare regions and products
+* Monitors profitability and growth over time
+* Provides actionable insights from key sales KPIs
+
+---
 
 ### • Walkthrough of Key Visuals
 
-* **KPIs (Top Section)**
+* **Top KPIs (Left Panel)**
 
-  * Total Sales
-  * Target Achievement %
-  * YoY Growth Rate
-  * Average Order Value
-  * Region-wise Revenue
+  * `2M` Total Sales
+  * `286K` Total Profit
+  * `0.12` Profit Margin %
+  * `0.04` Sales Growth %
 
-* **Sales Trend Analysis (Line Chart)**
-  Visualize sales performance month-over-month or quarter-over-quarter for a specific year.
+* **Sales by Month (Bar + Line Chart)**
+  Highlights monthly sales volumes and tracks the sales trend with a dual-axis line for comparative analysis.
 
-* **Region-wise Sales (Map/Heatmap)**
-  Identify geographic hotspots and underperforming areas using color-coded regional charts.
+* **Total Sales by Category (Pie Chart)**
+  Breaks down sales across three major product categories, with percentages clearly labeled.
 
-* **Product Category Performance (Bar Chart)**
-  Compare sales by product lines or SKUs to understand demand and plan inventory or marketing.
+* **Total Sales and Profit by Region (Horizontal Bar Chart)**
+  Compares how each region (West, East, Central, South) contributes to total sales and profit.
 
-* **Sales Rep / Team Leaderboard (Table or Bar)**
-  Rank individuals or teams by revenue, deals closed, or achievement rate.
+* **Total Sales by Sub-Category (Tree Map)**
+  Visually represents individual product sub-categories such as Phones, Chairs, Binders, and more, along with their total sales values.
 
-* **Target vs Actual (Bullet or Combo Chart)**
-  Monitor how closely actual sales match planned targets across different segments.
-
-* **Interactive Filters**
-  Date slicer, Region, Product Category, Sales Rep, Customer Type – to explore the dashboard from various angles.
+---
 
 ### • Business Impact & Insights
 
-* 🎯 **Performance Optimization**: Helps teams identify where they are over or underperforming and adapt strategies accordingly.
-* 🌍 **Market Focus**: Pinpoints high-potential regions and low-performing territories for targeted action.
-* 👥 **Team Management**: Supports performance reviews, incentive planning, and strategic hiring decisions.
-* 💡 **Insight-Driven Growth**: Empowers leadership with clear, actionable insights to maximize revenue and market share.
+* 📊 **Performance Monitoring**: Quickly assess sales KPIs across time and regions
+* 🌍 **Geographical Insights**: Focus attention on high- or low-performing regions
+* 🧠 **Product Strategy**: Determine which sub-categories are generating the most revenue
+* 🚀 **Growth Tracking**: Measure sales trends and margins to support strategic planning
 
 ---
 
@@ -94,3 +91,5 @@ To provide a centralized tool that:
 ![Sales Performance Dashboard Preview](https://github.com/Hamna228/Sales_Performance_Powerbi_Dashboard/blob/main/Sales_Performance_Dashboard.PNG)
 
 ---
+
+
